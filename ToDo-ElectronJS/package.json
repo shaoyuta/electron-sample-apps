@@ -1,0 +1,32 @@
+{
+  "name": "todo-application",
+  "version": "1.0.0",
+  "description": "Multi Window electron.js Todo Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalwarePerseus/ToDo-ElectronJS.git"
+  },
+  "keywords": [
+    "Electron",
+    "ElectronJS",
+    "ToDo",
+    "Node",
+    "NodeJS",
+    "Electron-js",
+    "Todo-application",
+    "basic"
+  ],
+  "author": "MalwarePerseus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalwarePerseus/ToDo-ElectronJS/issues"
+  },
+  "homepage": "https://github.com/MalwarePerseus/ToDo-ElectronJS#readme",
+  "dependencies": {
+    "electron": "^9.0.0"
+  }
+}
