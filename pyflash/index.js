@@ -15,7 +15,7 @@ app.on('ready', () => {
         }
     });
 
-    mainWindow.loadURL('http://localhost:5000');
+    mainWindow.loadURL('https://www.google.com/');
 
     mainWindow.on('closed', () => {
         pythonProcess.kill();
