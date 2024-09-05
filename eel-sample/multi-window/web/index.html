@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Window</title>
+</head>
+<body>
+    <h1>Main Window</h1>
+    <button onclick="sendMessage()">Send Message to Window 1</button>
+
+    <script type="text/javascript">
+        function sendMessage() {
+            eel.send_message_to_window('window1', 'Hello from Main Window');
+        }
+    </script>
+</body>
+</html>
